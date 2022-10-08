@@ -1,0 +1,44 @@
+.inout{
+    text-decoration: none;
+        display: inline-block;
+        color: rgba(202, 206, 221, 0.8);
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        outline: none;
+        /* color: #f82249;
+            transition: 0.5s; */
+                padding: 8px 4px;
+            border: none;
+            background-color: transparent;
+            
+}
+.inout :hover {
+    color: #fff;
+}
+
+.inout :before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f82249;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out 0s;
+}
+.inout :before {
+  visibility: visible;
+  width: 100%;
+}
+
+@media (max-width: 1199px) {
+    #header .container {
+        max-width: 100%;
+    }
+
+    .inout {
+        padding: 8px 4px;
+    }
+}

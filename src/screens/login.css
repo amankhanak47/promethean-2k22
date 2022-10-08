@@ -1,0 +1,178 @@
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  margin-top: 50px;
+}
+
+.right-login img {
+  margin-top: 1vh;
+  max-width: 60vw;
+  height: 110vh;
+  filter: brightness(0.4);
+}
+
+.loginbox {
+  width: 40vw;
+  /* position: absolute;
+      left: 0vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: fit-content; */
+  padding: 40px;
+  flex-direction: column;
+}
+
+.login-title {
+  color: #f82249;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  /* text-transform: uppercase; */
+  margin: 40px;
+  margin-bottom: 0%;
+}
+
+.loginbox p {
+  color: #3b3c3e;
+  font-family: system-ui;
+  /* color: #ebebeb; */
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.login-inputcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inp-component {
+  max-width: 80vw;
+  width: 400px;
+}
+
+.login-input {
+  border: 1px solid rgb(190, 188, 188);
+  width: 400px;
+  max-width: 80vw;
+  height: 40px;
+  color: rgb(0, 0, 0);
+  margin-top: 20px;
+  background-color: white;
+  padding-left: 15px;
+  font-family: system-ui;
+  border-radius: 4px;
+}
+
+.login-btn {
+  width: 409px;
+  border: none;
+  max-width: 80vw;
+  border: 1px solid rgb(164, 156, 156);
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  height: 30px;
+  height: fit-content;
+  border-radius: 3px;
+  padding: 10px;
+  cursor: pointer;
+  font-family: system-ui;
+  font-weight: 500;
+  font-size: large;
+  text-transform: capitalize;
+  background-color: rgba(6, 12, 34, 0.98);
+  color: white;
+}
+
+.login-footer-desc {
+  margin-top: 15px;
+  width: 410px;
+  max-width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rem-password {
+  display: -webkit-inline-box;
+}
+
+.rem-password input {
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.rem-password p {
+  font-weight: 500;
+}
+
+.login-footer-desc p {
+  font-weight: 600;
+  margin-bottom: 5px;
+  /* cursor: pointer; */
+}
+
+@media (max-width: 1000px) {
+  .login {
+    position: unset;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: fit-content; */
+    margin-top: 20px;
+    padding: 0;
+    /* margin-top: 70px; */
+    position: relative;
+    /* position: fixed; */
+  }
+
+  #header {
+    position: unset;
+  }
+
+  .right-login {
+    display: none;
+  }
+
+  .right-login img {
+    display: none;
+  }
+
+  .loginbox {
+    position: unset;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: ; */
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .login-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+      /* width: 100vw; */
+      justify-content: center;
+      margin: 0px;
+      /* margin-bottom: 90%; */
+    }
+    }
+    
+    @media (max-height: 500px) {
+      .login {
+        /* margin-top: 200px; */
+        height: fit-content;
+      }
+    
+      /* #header{display: none;} */
+    }
+    
+    

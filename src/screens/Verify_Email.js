@@ -12,7 +12,7 @@ function Verify_Email() {
   const handlesubmit = async (e) => {
     e.preventDefault();
     const response = await fetch(
-      `https://prometheanbackend2.herokuapp.com/verify/sendotp`,
+      `https://promethean-backend.onrender.com/verify/sendotp`,
       {
         method: "POST",
 

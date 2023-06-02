@@ -48,7 +48,7 @@ function CreateForm() {
       formData.append("image", img[0]);
       formData.append("eid", eid);
       console.log(formData);
-      const response = await fetch(`https://prometheanbackend2.herokuapp.com/create/event`, {
+      const response = await fetch(`https://promethean-backend.onrender.com/create/event`, {
         method: "POST",
         headers: {
           "auth-token": localStorage.getItem("promethean_org_token"),

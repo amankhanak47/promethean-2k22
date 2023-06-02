@@ -25,7 +25,7 @@ function Events({ setloading }) {
   const [file, setfile] = useState();
   const getfile = async () => {
       const response = await fetch(
-      `https://prometheanbackend2.herokuapp.com/create/getallevents`,
+      `https://promethean-backend.onrender.com/create/getallevents`,
       {
         method: "POST",
 

@@ -14,7 +14,7 @@ function Table() {
   const ref = useRef();
 const navigate=useNavigate()
   const getcordintor = async () => {
-    const response = await fetch(`https://prometheanbackend2.herokuapp.com/create/geteventwithorg`, {
+    const response = await fetch(`https://promethean-backend.onrender.com/create/geteventwithorg`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -30,7 +30,7 @@ const navigate=useNavigate()
   };
   const getdata = async () => {
     const response = await fetch(
-      `https://prometheanbackend2.herokuapp.com/auth/fetchalleventswithid`,
+      `https://promethean-backend.onrender.com/auth/fetchalleventswithid`,
       {
         method: "POST",
         headers: {

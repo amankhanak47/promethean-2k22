@@ -18,7 +18,7 @@ export default function Login() {
     
     setloading(true)
     e.preventDefault()
-    const response = await fetch(`https://prometheanbackend2.herokuapp.com/auth/login`, {
+    const response = await fetch(`https://promethean-backend.onrender.com/auth/login`, {
       method: "POST",
   
       headers: {

@@ -11,7 +11,7 @@ function UpdateEvent() {
 
   const getcord = async () => {
     const response = await fetch(
-      `https://prometheanbackend2.herokuapp.com/create/geteventwithorg`,
+      `https://promethean-backend.onrender.com/create/geteventwithorg`,
       {
         method: "POST",
         headers: {
@@ -86,7 +86,7 @@ function UpdateEvent() {
       formData.append("id", cord[0]._id);
       console.log(cord[0].dept_name);
       const response = await fetch(
-        `https://prometheanbackend2.herokuapp.com/create/updateevent`,
+        `https://promethean-backend.onrender.com/create/updateevent`,
         {
           method: "PUT",
 

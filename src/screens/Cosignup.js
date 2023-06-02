@@ -26,7 +26,7 @@ function Cosignup() {
     e.preventDefault();
     if (password == confirmpassword) {
        setloading(true)
-      const response = await fetch(`https://prometheanbackend2.herokuapp.com/auth/cosignup`, {
+      const response = await fetch(`https://promethean-backend.onrender.com/auth/cosignup`, {
         method: "POST",
 
         headers: {

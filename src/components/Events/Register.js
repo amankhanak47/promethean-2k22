@@ -50,7 +50,7 @@ function Register({
       setloading(true);
       console.log(formData);
       e.preventDefault();
-      const response = await fetch(`https://prometheanbackend2.herokuapp.com/add/event`, {
+      const response = await fetch(`https://promethean-backend.onrender.com/add/event`, {
         method: "POST",
 
         headers: {

@@ -22,7 +22,7 @@ function RegisteredEvents() {
 
   const [event_ids, setevent_ids] = useState([]);
   const getids = async () => {
-    const response = await fetch(`https://prometheanbackend2.herokuapp.com/auth/fetchallevents`, {
+    const response = await fetch(`https://promethean-backend.onrender.com/auth/fetchallevents`, {
       method: "GET",
 
       headers: {

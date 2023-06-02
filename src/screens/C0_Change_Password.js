@@ -16,7 +16,7 @@ function CO_Change_password() {
   const handlesubmit = async (e) => {
     
     e.preventDefault()
-    const response = await fetch(`https://prometheanbackend2.herokuapp.com/verify/cord_checkotp`, {
+    const response = await fetch(`https://promethean-backend.onrender.com/verify/cord_checkotp`, {
       method: "POST",
   
       headers: {

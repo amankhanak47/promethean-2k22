@@ -28,7 +28,7 @@ window.scroll(0,0)},[])
       setloading(true)
       e.preventDefault();
       const response = await fetch(
-        `https://prometheanbackend2.herokuapp.com/auth/signup`,
+        `https://promethean-backend.onrender.com/auth/signup`,
         {
           method: "POST",
 

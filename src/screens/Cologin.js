@@ -21,7 +21,7 @@ export default function Cologin() {
     e.preventDefault();
     setloading(true)
     const response = await fetch(
-      `https://prometheanbackend2.herokuapp.com/auth/cologin`,
+      `https://promethean-backend.onrender.com/auth/cologin`,
       {
         method: "POST",
 

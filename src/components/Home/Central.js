@@ -19,26 +19,26 @@ function Central({setloading}) {
   const [poster, setposter] = useState("");
   const [event_desc, setevent_desc] = useState("");
   const [team, setteam] = useState("");
-
   const ref = useRef(null);
   const [file, setfile] = useState();
   const getfile = async () => {
     const response = await fetch(
-      `https://prometheanbackend2.herokuapp.com/create/getallevents`,
+      `https://promethean-backend.onrender.com/create/getallevents`,
       {
         method: "POST",
-
+        
         headers: {
           "Content-Type": "application/json",
         },
       }
-    );
-    const json = await response.json();
-    setfile(json);
-    console.log(json);
-  };
-  useEffect(() => {
-    getfile();
+      );
+      const json = await response.json();
+      setfile(json);
+      console.log(json+"lkn");
+    };
+    useEffect(() => {
+      getfile();
+      console.log("ksuh")
   }, []);
 
   return (
